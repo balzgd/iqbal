@@ -112,7 +112,7 @@ Iqbal Bilal Ismail
 
 echo $G."\n========[]Sekelimus[]========".$X."\n";
 
-echo $G."\n[Created: Sekelimus Free Fire]";
+echo $G."\n[Sekelimus Free Fire]";
 
 echo $G."\nOwner: Iqbal Bilal Ismail";
 
