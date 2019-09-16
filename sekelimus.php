@@ -128,29 +128,29 @@ echo $G."\n[Created: Sekelimus Free Fire]";
 
 echo $G."\nOwner: Iqbal Bilal Ismail";
 
-echo $B."\nCo Owner: Fazmiifn";
+echo $G."\nCo Owner: Fazmiifn";
 
-echo $RR."\nAdministrator: Andri";
+echo $G."\nAdministrator: Andri";
 
-echo $R."\nMember: ";
+echo $G."\nMember: ";
 
 echo $G."\n- Dhafin";
 
-echo $GG."\n- Dicky";
+echo $G."\n- Dicky";
 
-echo $YY."\n- Iza";
+echo $G."\n- Iza";
 
-echo $YY."\n- Naufal";
+echo $GG."\n- Naufal";
 
-echo $YY."\n- Niko";
+echo $GG."\n- Niko";
 
-echo $YY."\n- Zaky";
+echo $GG."\n- Zaky";
 
-echo $R."\nWhatsapp: 0823-1622-6095";
+echo $G."\nWhatsapp: 0823-1622-6095";
 
-echo $B."\n::###############################################".$G.$X."\n\n";
+echo $G."\nSekelimus Team".$G.$X."\n\n";
 
-isset($argv[1]) OR die($RR."[!] []== Input Namber plish ==[] [!]\n".$X);
+isset($argv[1]) OR die($G."ERROR: SILAHKAN MASUKAN NOMOR HP TARGER\n".$X);
 
 if(is_numeric($argv[1])) {
 
