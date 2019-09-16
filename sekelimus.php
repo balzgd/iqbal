@@ -1,7 +1,5 @@
 #!/usr/bin/env php
 
-#Dilarang copyright SIL3NT - AndroTech1733 2018 15 08 12:30
-
 <?php
 
 if(strtolower(substr(PHP_OS, 0, 3)) == 'win') {
@@ -124,29 +122,31 @@ ___ ____ _____
 
 ";
 
-echo $G."\n========[]SIL3NT SPAMER[]========".$X."\n";
+echo $G."\n========[]Sekelimus[]========".$X."\n";
 
-echo $YY. $B."\n::###############################################";
+echo $G."\n[Created: Sekelimus Free Fire]";
 
-echo $R."\n::############[WELCOME:MY:HOME]##################";
+echo $G."\nOwner: Iqbal Bilal Ismail";
 
-echo $YY."\n::#: #";
+echo $B."\nCo Owner: Fazmiifn";
 
-echo $BB."\n::#:Author ::[Deden Nefaily Herstain] #";
+echo $RR."\nAdministrator: Andri";
 
-echo $B."\n::#:Instagram ::[@Mujahidin.AlHasan:]#";
+echo $R."\nMember: ";
 
-echo $RR."\n::#:Github ::[http://github.com/SIIL3NT:] #";
+echo $G."\n- Dhafin";
 
-echo $R."\n::#:Facebook ::[AndroTech1733:] #";
+echo $GG."\n- Dicky";
 
-echo $G."\n::#:YouTube ::[SIL3NT GAMING:] #";
+echo $YY."\n- Iza";
 
-echo $GG."\n::#:Team ::[SIL3NT - AndroTech1734] #";
+echo $YY."\n- Naufal";
 
-echo $YY."\n::#: #";
+echo $YY."\n- Niko";
 
-echo $R."\n::###########[THANKS:YOU:FOR:WATCHING]###########";
+echo $YY."\n- Zaky";
+
+echo $R."\nWhatsapp: 0823-1622-6095";
 
 echo $B."\n::###############################################".$G.$X."\n\n";
 
