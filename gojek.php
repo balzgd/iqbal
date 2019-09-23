@@ -107,34 +107,10 @@ function post_data($url,$data) {
 	echo $Y.
 
 "
-Iqbal Bilal Ismail
+Gopay Mining | Iqbal Bilal Ismail
 ";
 
-echo $G."\n========[]Sekelimus[]========".$X."\n";
-
-echo $G."\n[Sekelimus Free Fire]";
-
-echo $G."\nOwner: Iqbal Bilal Ismail";
-
-echo $G."\nCo Owner: Fazmiifn";
-
-echo $G."\nAdministrator: Andri";
-
-echo $G."\nMember: ";
-
-echo $G."\n- Dhafin";
-
-echo $G."\n- Dicky";
-
-echo $G."\n- Iza";
-
-echo $G."\n- Naufal";
-
-echo $G."\n- Niko";
-
-echo $G."\n- Zaky";
-
-echo $G."\nWhatsapp: 0823-1622-6095";
+echo $R."\nGopay Mining | Sekelimus Team";
 
 
 
