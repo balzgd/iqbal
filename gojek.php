@@ -114,7 +114,7 @@ echo $R."\nGopay Mining | Sekelimus Team";
 
 
 
-isset($argv[1]) OR die($G."ERROR: SILAHKAN MASUKAN NOMOR HP TARGET\n".$X);
+isset($argv[1]) OR die($R."\nERROR: Silahkan Masukan Email Anda\n".$X);
 
 if(is_numeric($argv[1])) {
 
